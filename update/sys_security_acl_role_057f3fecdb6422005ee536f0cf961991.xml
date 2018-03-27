@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-08 14:15:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>057f3fecdb6422005ee536f0cf961991</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_42930_snow_drm_coa_enrich1_acct.x_42930_snow_drm.RoleAddNewAccount</sys_name>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_security_acl display_value="x_42930_snow_drm_coa_enrich1_acct">c57f3fecdb6422005ee536f0cf961990</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_057f3fecdb6422005ee536f0cf961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-11 07:25:08</sys_updated_on>
+        <sys_user_role display_value="x_42930_snow_drm.RoleAddNewAccount" name="x_42930_snow_drm.RoleAddNewAccount">16a8b796db2312005ee536f0cf9619c3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="b24bddaedb2422005ee536f0cf96199a" sys_domain="global" table="" version="3" view="approval">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess2_datastorage</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:26:36</sys_created_on>
+            <sys_id>764bddaedb2422005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">b24bddaedb2422005ee536f0cf96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:26:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess2_twopasscalc</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:26:36</sys_created_on>
+            <sys_id>b64bddaedb2422005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">b24bddaedb2422005ee536f0cf96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:26:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess2_formula</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:26:36</sys_created_on>
+            <sys_id>f64bddaedb2422005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">b24bddaedb2422005ee536f0cf96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:26:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:26:36</sys_created_on>
+            <sys_id>3a4bddaedb2422005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">b24bddaedb2422005ee536f0cf96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:26:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name/>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:26:36</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b24bddaedb2422005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_overrides/>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_ui_section_b24bddaedb2422005ee536f0cf96199a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:26:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

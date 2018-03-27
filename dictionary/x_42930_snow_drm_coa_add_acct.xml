@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="coa_add_acct" max_length="40" name="x_42930_snow_drm_coa_add_acct" sizeclass="1" type="collection">
+        <element choice="1" label="ABM Account" max_length="5" name="abm_account" type="string">
+            <choice/>
+        </element>
+        <element label="Account Short Description" mandatory="true" max_length="100" name="account_short_description" type="string"/>
+        <element label="Account Description" mandatory="true" max_length="80" name="acct_descr" type="string"/>
+        <element default="Account" label="hier name" mandatory="true" max_length="50" name="acct_hier_name" type="string"/>
+        <element label="Account Name" mandatory="true" max_length="13" name="acct_name" type="string"/>
+        <element choice="1" label="ParentName" mandatory="true" max_length="80" name="acct_par_name" type="string">
+            <choice>
+                <element label="AC_1000" sequence="0" value="AC_1000"/>
+                <element label="AC_1100" sequence="1" value="AC_1100"/>
+                <element label="AC_1200" sequence="2" value="AC_1200"/>
+                <element label="AC_1300" sequence="3" value="AC_1300"/>
+                <element label="AC_1400" sequence="4" value="AC_1400"/>
+                <element label="AC_1500" sequence="5" value="AC_1500"/>
+                <element label="AC_2000" sequence="6" value="AC_2000"/>
+            </choice>
+        </element>
+        <element choice="1" label="AccountType" mandatory="true" max_length="30" name="acct_type" type="string">
+            <choice>
+                <element label="Asset" sequence="0" value="Asset"/>
+                <element label="Liability" sequence="1" value="Liability"/>
+                <element label="Equity" sequence="2" value="Equity"/>
+                <element label="Revenue" sequence="3" value="Revenue"/>
+                <element label="Expense" sequence="4" value="Expense"/>
+            </choice>
+        </element>
+        <element choice="1" label="Allow Book Code Override" max_length="5" name="allow_book_code_override" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+            </choice>
+        </element>
+        <element choice="1" label="Balance Sheet indicator" mandatory="true" max_length="5" name="balance_sheet_indicator" type="string">
+            <choice>
+                <element label="BS" sequence="0" value="BS"/>
+            </choice>
+        </element>
+        <element choice="1" label="Book Code" mandatory="true" max_length="5" name="book_code" type="string">
+            <choice>
+                <element label="C" sequence="0" value="C"/>
+            </choice>
+        </element>
+        <element choice="1" label="Budegt Override Account" max_length="5" name="budegt_override_account" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+            </choice>
+        </element>
+        <element choice="1" label="Budgetary Only" max_length="5" name="budgetary_only" type="string">
+            <choice>
+                <element label="Y" sequence="0" value="Y"/>
+                <element label="N" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" label="Control Account" max_length="5" name="control_account" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+            </choice>
+        </element>
+        <element default="DRMCurrentVersion" label="Drm snow default version" mandatory="true" max_length="100" name="drm_snow_default_version" type="string"/>
+        <element label="Effective Date" mandatory="true" max_length="20" name="effective_date" type="glide_date"/>
+        <element choice="1" label="Effective Status" mandatory="true" max_length="20" name="effective_status" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+                <element label="Working" sequence="2" value="Working"/>
+            </choice>
+        </element>
+        <element label="Epm pln alias" mandatory="true" max_length="80" name="epm_pln_alias" type="string"/>
+        <element choice="1" label="Epm pln datastorage" mandatory="true" max_length="25" name="epm_pln_datastorage" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="General Ledger Account" max_length="5" name="general_ledger_account" type="string">
+            <choice/>
+        </element>
+        <element choice="1" default="N" label="OpenItem Account" max_length="10" name="openitem_account" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+            </choice>
+        </element>
+        <element choice="1" label="Performance Measurement Acc" max_length="5" name="performance_measurement_acc" type="string">
+            <choice/>
+        </element>
+        <element label="Physical Nature" max_length="20" name="physical_nature" type="string"/>
+        <element choice="3" default="HP.AccountType" label="Property" max_length="20" name="property" type="string">
+            <choice/>
+        </element>
+        <element default="0" label="Reconcile On Base Amount" mandatory="true" max_length="10" name="reconcile_on_base_amount" type="integer"/>
+        <element default="SHARE" label="SETID" mandatory="true" max_length="50" name="setid" type="string"/>
+        <element choice="1" label="Statistical Account" max_length="5" name="statistical_account" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+            </choice>
+        </element>
+        <element label="Unit of Measure" max_length="10" name="unit_of_measure" type="integer"/>
+        <element choice="1" default="Non-VAT Related" label="VAT Account Flag" mandatory="true" max_length="20" name="vat_account_flag" type="string">
+            <choice>
+                <element label="Non-VAT Related" sequence="0" value="Non-VAT Related"/>
+                <element label="VAT Related" sequence="1" value="VAT Related"/>
+            </choice>
+        </element>
+    </element>
+</database>

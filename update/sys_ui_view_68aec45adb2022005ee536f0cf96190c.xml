@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Planning</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-13 07:13:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>68aec45adb2022005ee536f0cf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Planning</sys_name>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_update_name>sys_ui_view_68aec45adb2022005ee536f0cf96190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-13 07:13:11</sys_updated_on>
+        <title>Planning</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

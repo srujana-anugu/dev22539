@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_42930_snow_drm_coa_add_acct</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>
+<p>Hello Approver,</p>
+<p>${sysapproval.number} Request sent for Approval. Please approve/reject request.</p>
+<div>Short Description: ${sysapproval.short_description}</div>
+<div>Priority: ${sysapproval.priority}</div>
+<div>
+<div>Category: DRM</div>
+<div>
+<div>
+<div><hr /></div>
+<div>&nbsp;${mail_script:change_request_summary}</div>
+</div>
+<div>&nbsp;Comments:</div>
+<div>${sysapproval.description}</div>
+<div>
+<div>
+<div><hr /></div>
+<div>Click here to Approve/Reject Request: ${URI}</div>
+</div>
+<div>Click here to view ${sysapproval.sys_class_name}: ${sysapproval.URI}</div>
+</div>
+<div>&nbsp;&nbsp;</div>
+</div>
+<div>
+<div>
+<div><hr /></div>
+<div>Click the below links to Approve/Reject through mail -&nbsp;</div>
+<div>${mailto:mailto.approval}</div>
+</div>
+<div>&nbsp;</div>
+<div>${mailto:mailto.rejection}&nbsp;</div>
+<div>&nbsp;</div>
+</div>
+<div>
+<div>&nbsp;</div>
+<div>Thanks,</div>
+<div>User.</div>
+</div>
+</div>
+</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>AddApprovalRequest</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-21 10:25:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>42d6827cdb3422005ee536f0cf961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddApprovalRequest</sys_name>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_update_name>sysevent_email_template_42d6827cdb3422005ee536f0cf961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-21 10:25:12</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

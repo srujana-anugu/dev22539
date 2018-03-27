@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="tbl_coaadd_acct" max_length="40" name="x_42930_snow_drm_tbl_coaadd_acct" type="collection"/>
+</database>

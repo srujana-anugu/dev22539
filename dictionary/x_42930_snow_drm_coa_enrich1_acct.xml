@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="coa_enrich_accnt" max_length="40" name="x_42930_snow_drm_coa_enrich1_acct" sizeclass="1" type="collection">
+        <element label="AccountType" max_length="30" name="accttype" read_only="true" type="string"/>
+        <element choice="1" label="Aggregation-Plan1" max_length="20" name="aggregation_plan1" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="Aggregation-Plan 2" max_length="20" name="aggregation_plan_2" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="Aggregation-Plan 3" max_length="20" name="aggregation_plan_3" type="string">
+            <choice/>
+        </element>
+        <element default="HP.Alias" label="Aliasprop" max_length="80" name="aliasprop" type="string"/>
+        <element label="ASO Formula" max_length="20" name="aso_formula" type="string"/>
+        <element label="BSO Formula" max_length="20" name="bso_formula" type="string"/>
+        <element label="Consolidation" max_length="20" name="consolidation" type="string"/>
+        <element label="ConsolidationCode" max_length="20" name="consolidationcode" type="string"/>
+        <element label="Currency Category" max_length="20" name="currency_category" type="string"/>
+        <element label="Currency Conversion" max_length="20" name="currency_conversion" type="string"/>
+        <element label="Currency Name" max_length="20" name="currency_name" type="string"/>
+        <element default="None" label="Custom1 TopMember" mandatory="true" max_length="10" name="custom1_topmember" type="string"/>
+        <element default="None" label="Custom3 TopMember" mandatory="true" max_length="20" name="custom3_topmember" type="string"/>
+        <element default="None" label="Custom4 TopMember" mandatory="true" max_length="20" name="custom4_topmember" type="string"/>
+        <element default="None" label="Custom TopMember2" mandatory="true" max_length="20" name="custom_topmember2" type="string"/>
+        <element default="HP.DataStorage" label="Datastorageprop" mandatory="true" max_length="13" name="datastorageprop" type="string"/>
+        <element choice="1" label="Data Storage" mandatory="true" max_length="10" name="data_storage" type="string">
+            <choice/>
+        </element>
+        <element label="Data Storage(ASO)" max_length="20" name="data_storage_aso" type="string"/>
+        <element label="Data Storage(BSO)" max_length="20" name="data_storage_bso" type="string"/>
+        <element choice="1" label="Data Type" max_length="20" name="data_type" type="string">
+            <choice/>
+        </element>
+        <element label="Account Description" max_length="80" name="descr" read_only="true" type="string"/>
+        <element default="DRMCurrentVersion" label="DRM_snow_default_version" max_length="100" name="drm_snow_default_version" type="string"/>
+        <element label="EnrichFlag" max_length="40" name="enrichflag" type="boolean"/>
+        <element label="EPM Planning Alias Name" mandatory="true" max_length="80" name="epm_pln_alias" type="string"/>
+        <element choice="3" default="never share" label="EPM Planning DataStorage" mandatory="true" max_length="25" name="epm_pln_datastorage" type="string">
+            <choice>
+                <element label="store" sequence="0" value="store"/>
+                <element label="dynamic calc" sequence="1" value="dynamic calc"/>
+                <element label="dynamic calc and store" sequence="2" value="dynamic calc and store"/>
+                <element label="shared" sequence="3" value="shared"/>
+                <element label="never share" sequence="4" value="never share"/>
+            </choice>
+        </element>
+        <element choice="1" label="Ess1 DataStorage" max_length="25" name="ess1_datastorage" type="string">
+            <choice>
+                <element label="StoreData" sequence="0" value="StoreData"/>
+                <element label="DynamicCalcAndStore" sequence="1" value="DynamicCalcAndStore"/>
+                <element label="DynamicCalc" sequence="2" value="DynamicCalc"/>
+                <element label="NeverShare" sequence="3" value="NeverShare"/>
+                <element label="LabelOnly" sequence="4" value="LabelOnly"/>
+                <element label="ShareData" sequence="5" value="ShareData"/>
+            </choice>
+        </element>
+        <element label="ESS1 Formula" max_length="20" name="ess1_formula" type="string"/>
+        <element label="Ess1 TwoPassCalc" mandatory="true" max_length="40" name="ess1_twopasscalc" type="boolean"/>
+        <element choice="1" label="Ess2 DataStorage" max_length="25" name="ess2_datastorage" type="string">
+            <choice>
+                <element label="StoreData" sequence="0" value="StoreData"/>
+                <element label="DynamicCalcAndStore" sequence="1" value="DynamicCalcAndStore"/>
+                <element label="DynamicCalc" sequence="2" value="DynamicCalc"/>
+                <element label="NeverShare" sequence="3" value="NeverShare"/>
+                <element label="LabelOnly" sequence="4" value="LabelOnly"/>
+                <element label="ShareData" sequence="5" value="ShareData"/>
+            </choice>
+        </element>
+        <element label="ESS2 Formula" max_length="20" name="ess2_formula" type="string"/>
+        <element label="Ess2 TwoPassCalc" max_length="40" name="ess2_twopasscalc" type="boolean"/>
+        <element choice="1" label="Ess3 DataStorage" max_length="25" name="ess3_datastorage" type="string">
+            <choice>
+                <element label="StoreData" sequence="0" value="StoreData"/>
+                <element label="DynamicCalcAndStore" sequence="1" value="DynamicCalcAndStore"/>
+                <element label="DynamicCalc" sequence="2" value="DynamicCalc"/>
+                <element label="NeverShare" sequence="3" value="NeverShare"/>
+                <element label="LabelOnly" sequence="4" value="LabelOnly"/>
+                <element label="ShareData" sequence="5" value="ShareData"/>
+            </choice>
+        </element>
+        <element label="ESS3 Formula" max_length="20" name="ess3_formula" type="string"/>
+        <element label="Ess3 TwoPassCalc" max_length="40" name="ess3_twopasscalc" type="boolean"/>
+        <element label="Essbase Comments" max_length="20" name="essbase_comments" type="string"/>
+        <element label="Essbase Member" max_length="20" name="essbase_member" type="string"/>
+        <element label="Essbase Smart List" max_length="20" name="essbase_smart_list" type="string"/>
+        <element label="Essbase Type" max_length="20" name="essbase_type" type="string"/>
+        <element label="Flow Matric" max_length="20" name="flow_matric" type="string"/>
+        <element label="Format string" max_length="20" name="format_string" type="string"/>
+        <element default="&lt;None&gt;" label="Formula" max_length="20" name="formula" type="string"/>
+        <element label="Formula-Plan 1" max_length="20" name="formula_plan_1" type="string"/>
+        <element label="Formula-Plan 2" max_length="20" name="formula_plan_2" type="string"/>
+        <element label="Formula-Plan 3" max_length="20" name="formula_plan_3" type="string"/>
+        <element label="HFM AccountType" max_length="25" name="hfm_accounttype" type="string"/>
+        <element label="HFM Custom1" max_length="25" name="hfm_custom1" type="string"/>
+        <element label="HFM Custom2" max_length="25" name="hfm_custom2" type="string"/>
+        <element choice="3" default="N" label="HFM EnableCustom1Agg" max_length="20" name="hfm_enablecustom1agg" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element choice="3" default="N" label="HFM IsCalculated" max_length="20" name="hfm_iscalculated" type="string">
+            <choice>
+                <element label="N" sequence="0" value="N"/>
+                <element label="Y" sequence="1" value="Y"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="HFM UserDefined1" max_length="80" name="hfm_userdefined1" type="string"/>
+        <element default="A_IncomeStatement" label="Hier name" max_length="50" name="hier_name" read_only="true" type="string"/>
+        <element choice="1" label="Is Calculated" max_length="5" name="is_calculated" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="Is Consolidated" max_length="5" name="is_consolidated" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label="Is ICP" max_length="5" name="is_icp" type="string">
+            <choice/>
+        </element>
+        <element label="Item Value" max_length="20" name="item_value" type="string"/>
+        <element label="Level Usage For Aggregation" max_length="20" name="level_usage_for_aggregation" type="string"/>
+        <element label="Member Solve Order" max_length="20" name="member_solve_order" type="string"/>
+        <element label="Name" max_length="13" name="name" read_only="true" type="string"/>
+        <element label="ParentName" max_length="80" name="parentname" read_only="true" type="string"/>
+        <element label="Plan1 Alias" max_length="20" name="plan1_alias" type="string"/>
+        <element choice="1" label="Plan1 DataStorage" max_length="25" name="plan1_datastorage" type="string">
+            <choice>
+                <element label="store" sequence="0" value="store"/>
+                <element label="dynamic calc" sequence="1" value="dynamic calc"/>
+                <element label="dynamic calc and store" sequence="2" value="dynamic calc and store"/>
+                <element label="nevershare" sequence="3" value="nevershare"/>
+            </choice>
+        </element>
+        <element label="Plan1 TwoPassCalc" max_length="40" name="plan1_twopasscalc" type="boolean"/>
+        <element label="Plan1 UDA" max_length="25" name="plan1_uda" type="string"/>
+        <element label="Plan2 Alias" max_length="20" name="plan2_alias" type="string"/>
+        <element choice="1" label="Plan2 DataStorage" max_length="25" name="plan2_datastorage" type="string">
+            <choice>
+                <element label="store" sequence="0" value="store"/>
+                <element label="dynamic calc" sequence="1" value="dynamic calc"/>
+                <element label="dynamic calc and store" sequence="2" value="dynamic calc and store"/>
+                <element label="nevershare" sequence="3" value="nevershare"/>
+            </choice>
+        </element>
+        <element display="true" label="Plan2 TwoPassCalc" max_length="40" name="plan2_twopasscalc" type="boolean"/>
+        <element label="Plan2 UDA" max_length="25" name="plan2_uda" type="string"/>
+        <element label="Plan Type-Plan 1" max_length="20" name="plan_type_plan_1" type="string"/>
+        <element label="Plan Type-Plan 2" max_length="20" name="plan_type_plan_2" type="string"/>
+        <element label="Plan Type-Plan 3" max_length="20" name="plan_type_plan_3" type="string"/>
+        <element label="Plug Account" max_length="20" name="plug_account" type="string"/>
+        <element label="Security Class" max_length="20" name="security_class" type="string"/>
+        <element label="Smart List" max_length="20" name="smart_list" type="string"/>
+        <element label="Smart List Entry Label" max_length="20" name="smart_list_entry_label" type="string"/>
+        <element choice="1" label="Source Plan Type" mandatory="true" max_length="20" name="source_plan_type" type="string">
+            <choice/>
+        </element>
+        <element label="TwoPassCalc" mandatory="true" max_length="40" name="twopasscalc" type="boolean"/>
+        <element default="HP.TwoPassCalc" label="Twopasscalprop" mandatory="true" max_length="13" name="twopasscalprop" type="string"/>
+        <element choice="1" label="Two Pass Calculation" max_length="5" name="two_pass_calculation" type="string">
+            <choice/>
+        </element>
+        <element label="UDA" max_length="20" name="uda" type="string"/>
+        <element label="User Defined 1" max_length="20" name="user_defined_1" type="string"/>
+        <element label="User Defined 2" max_length="20" name="user_defined_2" type="string"/>
+        <element label="User Defined 3" max_length="20" name="user_defined_3" type="string"/>
+    </element>
+</database>

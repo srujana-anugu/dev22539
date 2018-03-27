@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Add Account - ESSBASE                " section_id="1a767bd6dbe022005ee536f0cf9619ea" sys_domain="global" table="x_42930_snow_drm_coa_enrich1_acct" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess1_formula</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-14 15:49:11</sys_created_on>
+            <sys_id>412cd6b7dbb43200fcc173ffbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Account - ESSBASE                " display_value="Add Account - ESSBASE                " name="x_42930_snow_drm_coa_enrich1_acct" sys_domain="global" view="Default view">1a767bd6dbe022005ee536f0cf9619ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-14 15:49:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess1_datastorage</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-14 15:49:11</sys_created_on>
+            <sys_id>812cd6b7dbb43200fcc173ffbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Account - ESSBASE                " display_value="Add Account - ESSBASE                " name="x_42930_snow_drm_coa_enrich1_acct" sys_domain="global" view="Default view">1a767bd6dbe022005ee536f0cf9619ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-14 15:49:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-14 15:49:11</sys_created_on>
+            <sys_id>c12cd6b7dbb43200fcc173ffbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Account - ESSBASE                " display_value="Add Account - ESSBASE                " name="x_42930_snow_drm_coa_enrich1_acct" sys_domain="global" view="Default view">1a767bd6dbe022005ee536f0cf9619ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-14 15:49:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ess1_twopasscalc</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-14 15:49:11</sys_created_on>
+            <sys_id>052cd6b7dbb43200fcc173ffbf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Add Account - ESSBASE                " display_value="Add Account - ESSBASE                " name="x_42930_snow_drm_coa_enrich1_acct" sys_domain="global" view="Default view">1a767bd6dbe022005ee536f0cf9619ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-14 15:49:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Add Account - ESSBASE                </caption>
+            <header>false</header>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-14 07:39:16</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a767bd6dbe022005ee536f0cf9619ea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Add Account - ESSBASE                </sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_ui_section_1a767bd6dbe022005ee536f0cf9619ea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-14 15:49:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

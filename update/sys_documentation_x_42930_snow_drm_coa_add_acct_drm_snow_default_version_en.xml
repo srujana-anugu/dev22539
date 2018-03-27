@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="drm_snow_default_version" label="Drm snow default version" language="en" table="x_42930_snow_drm_coa_add_acct">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>drm_snow_default_version</element>
+            <help/>
+            <hint/>
+            <label>Drm snow default version</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <plural>Drm snow default versions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-25 06:20:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b89c27d2db2312005ee536f0cf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Drm snow default version</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_documentation_x_42930_snow_drm_coa_add_acct_drm_snow_default_version_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-25 06:20:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

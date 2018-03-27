@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="acct_par_name" table="x_42930_snow_drm_coa_add_acct" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcb36680db493200fcc173ffbf9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_411100</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85adfe25db6022005ee536f0cf9619f7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_411100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_54321</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 10:19:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>320662eddb2022005ee536f0cf96196c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-11 12:02:22</sys_updated_on>
+            <value>A_54321</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1100</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94b3a680db493200fcc173ffbf961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_412000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dadfe25db6022005ee536f0cf9619f7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_412000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 10:19:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba0662eddb2022005ee536f0cf96196c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-11 12:02:22</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1200</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cb3a680db493200fcc173ffbf961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_501110</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05adfe25db6022005ee536f0cf9619f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_501110</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1300</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14b3a680db493200fcc173ffbf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1300</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_501200</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9adfe25db6022005ee536f0cf9619f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_501200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1400</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8b3a680db493200fcc173ffbf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1400</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_502000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81adfe25db6022005ee536f0cf9619f9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_502000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_1500</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90b3a680db493200fcc173ffbf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_1500</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_503000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49adfe25db6022005ee536f0cf9619f9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_503000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC_2000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:00:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58b3a680db493200fcc173ffbf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>AC_2000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_310000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01adfe25db6022005ee536f0cf9619fa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_310000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acct_par_name</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>A_320000</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 12:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5adfe25db6022005ee536f0cf9619fa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:00:40</sys_updated_on>
+            <value>A_320000</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>acct_par_name</element>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-11 10:19:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>34ee3862db303200fcc173ffbf9619a7</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_name>acct_par_name</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_choice_x_42930_snow_drm_coa_add_acct_acct_par_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-28 06:32:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>EnrichAccountApprovalForm.xml</formatter>
+        <name>EnrichAccountApprovalForm</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-15 12:18:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0d8763fadba822005ee536f0cf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnrichAccountApprovalForm</sys_name>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_update_name>sys_ui_formatter_0d8763fadba822005ee536f0cf9619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-15 12:18:22</sys_updated_on>
+        <table>x_42930_snow_drm_coa_enrich1_acct</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

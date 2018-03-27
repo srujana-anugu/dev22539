@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysrule_approvals">
+    <sysrule_approvals action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <description/>
+        <group/>
+        <match_conditions>ALL</match_conditions>
+        <name>AddApproval</name>
+        <optional_group/>
+        <order>100</order>
+        <run_rule_before>true</run_rule_before>
+        <script/>
+        <set_state>requested</set_state>
+        <sys_class_name>sysrule_approvals</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-14 07:44:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a91dddeedb2422005ee536f0cf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddApproval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_update_name>sysrule_approvals_a91dddeedb2422005ee536f0cf961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-14 07:44:23</sys_updated_on>
+        <table>x_42930_snow_drm_coa_add_acct</table>
+        <user display_value="User AcctAprv1">23dbce56db3312005ee536f0cf961963</user>
+    </sysrule_approvals>
+</record_update>

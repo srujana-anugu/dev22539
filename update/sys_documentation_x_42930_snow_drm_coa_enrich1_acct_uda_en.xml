@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="uda" label="UDA" language="en" table="x_42930_snow_drm_coa_enrich1_acct">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>uda</element>
+            <help/>
+            <hint/>
+            <label>UDA</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <plural>UDAs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-04 08:38:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>259c5908dbab0300fcc173ffbf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UDA</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_documentation_x_42930_snow_drm_coa_enrich1_acct_uda_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-04 08:38:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

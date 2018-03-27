@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="datastorageprop" label="Datastorageprop" language="en" table="x_42930_snow_drm_coa_enrich1_acct">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>datastorageprop</element>
+            <help/>
+            <hint/>
+            <label>Datastorageprop</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <plural>Datastorageprops</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-09 09:20:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a255cc85db6822005ee536f0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Datastorageprop</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_documentation_x_42930_snow_drm_coa_enrich1_acct_datastorageprop_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-09 09:20:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

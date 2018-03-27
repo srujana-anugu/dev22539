@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hfm_iscalculated" table="x_42930_snow_drm_coa_enrich1_acct" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hfm_iscalculated</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a387a2c0db493200fcc173ffbf9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:17:32</sys_updated_on>
+            <value>N</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hfm_iscalculated</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Y</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb87a2c0db493200fcc173ffbf9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:17:32</sys_updated_on>
+            <value>Y</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hfm_iscalculated</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6387a2c0db493200fcc173ffbf9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-15 11:17:32</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hfm_iscalculated</element>
+            <name>x_42930_snow_drm_coa_enrich1_acct</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-15 11:17:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2b87a2c0db493200fcc173ffbf9619d6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>hfm_iscalculated</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_choice_x_42930_snow_drm_coa_enrich1_acct_hfm_iscalculated</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-28 06:32:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

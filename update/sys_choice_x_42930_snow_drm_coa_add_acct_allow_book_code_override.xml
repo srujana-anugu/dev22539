@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="allow_book_code_override" table="x_42930_snow_drm_coa_add_acct" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>allow_book_code_override</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-04 07:26:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>313c058cdb6b0300fcc173ffbf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-04 07:26:36</sys_updated_on>
+            <value>N</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>allow_book_code_override</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Y</label>
+            <language>en</language>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-04 07:26:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b13c058cdb6b0300fcc173ffbf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-04 07:26:36</sys_updated_on>
+            <value>Y</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>allow_book_code_override</element>
+            <name>x_42930_snow_drm_coa_add_acct</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-04 07:26:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7d3c058cdb6b0300fcc173ffbf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>allow_book_code_override</sys_name>
+            <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+            <sys_update_name>sys_choice_x_42930_snow_drm_coa_add_acct_allow_book_code_override</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-04 07:26:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

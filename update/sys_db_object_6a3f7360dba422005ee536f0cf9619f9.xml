@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>coa_enrich_accnt</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_42930_snow_drm_coa_enrich1_acct</name>
+        <number_ref display_value="ENR">c0e14c70dba422005ee536f0cf96196b</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">9363104348231200440768581d3e3bd2</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-08 14:15:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6a3f7360dba422005ee536f0cf9619f9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>coa_enrich_accnt</sys_name>
+        <sys_package display_value="SNOW_DRM" source="x_42930_snow_drm">4c1a6b52db2312005ee536f0cf9619a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SNOW_DRM">4c1a6b52db2312005ee536f0cf9619a4</sys_scope>
+        <sys_update_name>sys_db_object_6a3f7360dba422005ee536f0cf9619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-11 07:25:08</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_42930_snow_drm.RoleAddNewAccount" name="x_42930_snow_drm.RoleAddNewAccount">16a8b796db2312005ee536f0cf9619c3</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
